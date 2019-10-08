@@ -1,3 +1,51 @@
 body {background-color: #e4e4e4;}
 
-h1,h2,h3 {text-align: center;}
+h1 {text-align: center;
+    color: #4a93e2;
+    font-weight: bold;
+    width: max-content;
+}
+}
+
+h2,h3 {text-align: center;}
+
+/* Buttons */
+
+.btn--contact {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--blue {
+    color: white;
+    background-color: blue;
+    
+}
+
+.btn--blue:hover,
+.btn--blue:active,
+.btn--blue:focus,
+.btn--blue:active:focus {
+    background-color: cyan;
+    
+    color: white;
+}
+
+.home-container{height:100vh;
+    background: url("./assets/images/milarby-home.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.home-container p {color: #4a93e2;}
+
+.about-container{background-color: #9b9eae;}
+.photos-container{background-color: #acafbf;}
+.video-container{background-color: #c2c5d6;}
+.audio-container{background-color: #d5d9ec;}
