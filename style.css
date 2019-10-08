@@ -1,13 +1,28 @@
-body {background-color: #e4e4e4;}
+body {font-family: 'Roboto', sans-serif;}
 
-h1 {text-align: center;
+h2,h3 {text-align: center;}
+
+/* Buttons */
+
+.btn--contact {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+/* Jumbotron */
+
+.jumbotron {background-color:transparent;}
+
+.jumbotron-header {text-align: center;
     color: #4a93e2;
     font-weight: bold;
     width: max-content;
 }
-}
 
-h2,h3 {text-align: center;}
+.jumbotron-text {color: #4a93e2;
+    font-weight: bold;
+}
 
 /* Buttons */
 
@@ -27,13 +42,15 @@ h2,h3 {text-align: center;}
 .btn--blue:active,
 .btn--blue:focus,
 .btn--blue:active:focus {
-    background-color: cyan;
+    background-color: #4a93e2;
     
     color: white;
 }
 
+/* Containers */
+
 .home-container{height:100vh;
-    background: url("./assets/images/milarby-home.jpg") no-repeat center center fixed; 
+    background: url("./assets/images/milarby-home.jpg") no-repeat center right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -41,9 +58,10 @@ h2,h3 {text-align: center;}
   display:flex;
   align-items:center;
   justify-content:center;
+  background-color: rgba(0,0,0,0.5)
 }
 
-.home-container p {color: #4a93e2;}
+
 
 .about-container{background-color: #9b9eae;}
 .photos-container{background-color: #acafbf;}
