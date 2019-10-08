@@ -1,6 +1,6 @@
 body {font-family: 'Roboto', sans-serif;}
 
-h2,h3 {text-align: center;}
+h2 {text-align: center;}
 
 /* Buttons */
 
@@ -47,10 +47,25 @@ h2,h3 {text-align: center;}
     color: white;
 }
 
+/* Navbar */
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+
 /* Containers */
 
 .home-container{height:100vh;
-    background: url("./assets/images/milarby-home.jpg") no-repeat center right fixed; 
+    background: url("./assets/images/milarby-home.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -62,8 +77,38 @@ h2,h3 {text-align: center;}
 }
 
 
+/* Page Headers */
 
-.about-container{background-color: #9b9eae;}
-.photos-container{background-color: #acafbf;}
-.video-container{background-color: #c2c5d6;}
-.audio-container{background-color: #d5d9ec;}
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h3 {
+    margin-top: 0;
+}
+
+.content-container{padding-top:75px;
+padding-bottom:75px;}
+
+container-wrapper{}
+
+
+.about-picture{height:50vh;
+    background: url("./assets/images/fieldstock.jpg") no-repeat top center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color: #9b9eae;}
+
+.about p{text-align:center;}
+
+.container-color-about{background-color: #9b9eae;}
+.container-color-photo{background-color: #acafbf;}
+.container-color-video{background-color: #c2c5d6;}
+.container-color-audio{background-color: #d5d9ec;}
