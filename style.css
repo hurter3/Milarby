@@ -87,6 +87,7 @@ h2 {text-align: center;}
 
 .page-header h3 {
     margin-top: 0;
+    text-align:center;
 }
 
 .content-container{padding-top:75px;
@@ -108,7 +109,10 @@ container-wrapper{}
 
 .about p{text-align:center;}
 
+
+  
 .container-color-about{background-color: #9b9eae;}
 .container-color-photo{background-color: #acafbf;}
 .container-color-video{background-color: #c2c5d6;}
 .container-color-audio{background-color: #d5d9ec;}
+
