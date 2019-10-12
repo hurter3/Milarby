@@ -65,7 +65,7 @@ h2 {text-align: center;}
 /* Containers */
 
 .home-container{height:100vh;
-    background: url("./assets/images/milarby-home.jpg") no-repeat center center fixed; 
+    background: url("./assets/images/milarby-home.jpg") no-repeat left center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -177,3 +177,13 @@ footer {
 .block-divider--short {
     width: 35px;
 }
+
+
+.photo{
+    position: relative;
+    margin:auto;
+padding:25px;}
+
+.audio{
+    margin:auto;
+padding:25px;}
