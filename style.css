@@ -161,7 +161,7 @@ footer {
 }
 
 
-/* Block divider */
+/* Block dividers */
 
 .block-divider {
     width: 75px;
@@ -176,19 +176,4 @@ footer {
 
 .block-divider--short {
     width: 35px;
-}
- photo{position:relative;
-padding:25px;
-margin-left: 5%;
-}
-
-
-
-
-.photo{margin:auto;
-padding:30px;
-}
-
-.audio{margin:auto;
-padding:30px;
 }
