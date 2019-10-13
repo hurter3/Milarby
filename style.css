@@ -153,6 +153,18 @@ footer {
     background: #e84610;
 }
 
+size-img {
+    margin: 50px;
+    transition: transform 1s ease;
+}
+
+
+size-img:hover {
+    transform: scale(2);
+}
+
+
+
 .social-color-facebook{background-color: blue;}
 .social-color-youtube{background-color: red;}
 
@@ -180,9 +192,12 @@ footer {
 
 
 .photo{
-    position: relative;
     margin:auto;
-padding:25px;}
+   padding:25px;
+    
+    
+    
+}
 
 .audio{
     margin:auto;
