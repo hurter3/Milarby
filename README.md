@@ -1,26 +1,25 @@
-Your Project's Name
-The Milarby Acoustic Duo project will be devolped for my MS1 project. 
+Milarby Acoustic Duo
+This has been developed for my MS1 project - Code Institute. 
 It will be website for a friends band to promote their great talents and enhance their future ambitions.
-Currently they only operate via facebook but this addition will expand their customer base.
 
 UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+Currently they only operate via facebook but the addition of this website will expand their customer base.
+The objective was to follow the same theme and colours from their facebook page with media links to make them proceed to either the 'Contact Us' button or navbar icon and be presented with the same form Modal.
+At 1st I designed the website so the navbar would display different web pages with the same header and footers but after discussion with the band we decided to go for the one flowing index page with the navbar taking you to the different sections. This way if the navbar was not used and the user scrolled down the page they would encompass all sections and then hopefully clicking the contact option.    
+
+I used Adobe XD to design the mockup for full screen and mobile which was also changed slightly while developing the website through reviews with the band. (bit of an Agile approach).
+
+Technologies and approach adopted.
+I used HTML5, CSS3 and then Java for progressive enhancements. With the mobile 1st approach I used Bootstrap to get the grid operating responsively to different devices. When that was achieved i worked on each section trying to use Boostrap styling as much as possible. Thereafter i used Java Jumbotron and modals then started styling with my own CSS enhancements.
+Projects like the Whiskey landing page and the CV from the course helped me with ideas. Google searches also directed me to W3Schools for help.      
+
 Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+At 1first I wanted to use the collapsable navbar for all screens but decided the expanded navbar for full screens had a better feel. 
+
+
 Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-JQuery
-The project uses JQuery to simplify DOM manipulation.
+Connect the submit function to send an email to the Milarby Acoustic Duo band with an automated reply to the requestor.
+
 Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
@@ -42,8 +41,13 @@ Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 Credits
 Content
-The text for section Y was copied from the Wikipedia article Z
+The content is similiar to the Bands facebook page and they expanded on the paragraph in the About section.
 Media
-The photos used in this site were obtained from ...
+All the media JPG and MP3 files were provided by the BAND via Dropbox. At 1st I included a MP4 video but we decided it was better in incoprate a link to YouTube as the MP4 file was taking time to load.
 Acknowledgements
 I received inspiration for this project from X
+
+
+
+
+
