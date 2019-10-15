@@ -1,16 +1,30 @@
+/* ----------------------------------------Body Font */
+
 body {font-family: 'Roboto', sans-serif;}
 
+/* ---------------------------------------- Page Headers */
 h2 {text-align: center;}
-
-/* Buttons */
-
-.btn--contact {
-    font-weight: bold;
-    border-radius: 23px;
-    width: 160px;
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
 }
 
-/* Jumbotron */
+/* ----------------------------------------Footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+    text-align: center
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+/* ---------------------------------------- Jumbotron */
 
 .jumbotron {background-color:transparent;}
 
@@ -24,7 +38,7 @@ h2 {text-align: center;}
     font-weight: bold;
 }
 
-/* Buttons */
+/* --------------------------------------- Buttons */
 
 .btn--contact {
     font-weight: bold;
@@ -47,7 +61,7 @@ h2 {text-align: center;}
     color: white;
 }
 
-/* Navbar */
+/* ----------------------------------------/* Navbar */
 
 .navbar .navbar-toggler {
     border: 0;
@@ -62,7 +76,7 @@ h2 {text-align: center;}
 }
 
 
-/* Containers */
+/* ---------------------------------------- Containers */
 
 .home-container{height:100vh;
     background: url("./assets/images/milarby-home.jpg") no-repeat left center fixed; 
@@ -77,24 +91,11 @@ h2 {text-align: center;}
 }
 
 
-/* Page Headers */
-
-.page-header {
-    margin-bottom: 0;
-    border-bottom: 0;
-    text-align: center;
-}
-
-.page-header h3 {
-    margin-top: 0;
-    text-align:center;
-}
-
 .content-container{padding-top:75px;
 padding-bottom:75px;}
 
-container-wrapper{}
 
+/* ---------------------------------------- Sections */
 
 .about-picture{height:50vh;
     background: url("./assets/images/fieldstock.jpg") no-repeat top center; 
@@ -109,25 +110,22 @@ container-wrapper{}
 
 .about p{text-align:center;}
 
+.photo{
+    margin:auto;
+   padding:25px;
+}
 
-  
+.audio{
+    margin:auto;
+padding:25px;}
+
 .container-color-about{background-color: #9b9eae;}
 .container-color-photo{background-color: #acafbf;}
 .container-color-video{background-color: #c2c5d6;}
 .container-color-audio{background-color: #d5d9ec;}
 
 
-
-/* ----------------------------------------Footer */
-
-footer {
-    background-color: #525252;
-    color: #fafafa;
-    min-height: 120px;
-    margin: 0;
-    text-align: center
-}
-
+/* ----------------------------------------Footer social links */
 
 .social-links {
     padding-bottom: 15px;
@@ -153,27 +151,8 @@ footer {
     background: blue;
 }
 
-size-img {
-    margin: 50px;
-    transition: transform 1s ease;
-}
 
-
-size-img:hover {
-    transform: scale(2);
-}
-
-
-
-.social-color-facebook{background-color: blue;}
-.social-color-youtube{background-color: red;}
-
-#footer-details {
-    padding: 20px;
-}
-
-
-/* Block dividers */
+/* ----------------------------------------Header Block dividers */
 
 .block-divider {
     width: 75px;
@@ -182,23 +161,8 @@ size-img:hover {
     background-color: #444;
 }
 
-.block-divider--orange {
-    background-color: #f05f40;
-}
-
 .block-divider--short {
     width: 35px;
 }
 
 
-.photo{
-    margin:auto;
-   padding:25px;
-    
-    
-    
-}
-
-.audio{
-    margin:auto;
-padding:25px;}
