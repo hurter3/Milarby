@@ -3,6 +3,8 @@
 body {font-family: 'Roboto', sans-serif;}
 
 /* ---------------------------------------- Page Headers */
+
+
 h2 {text-align: center;}
 .page-header {
     margin-bottom: 0;
@@ -31,7 +33,6 @@ footer {
 .jumbotron-header {text-align: center;
     color: #4a93e2;
     font-weight: bold;
-    width: max-content;
 }
 
 .jumbotron-text {color: #4a93e2;
@@ -79,7 +80,7 @@ footer {
 /* ---------------------------------------- Containers */
 
 .home-container{height:100vh;
-    background: url("./assets/images/milarby-home.jpg") no-repeat left center fixed; 
+    background: url("./assets/images/milarby-home.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
