@@ -5,9 +5,6 @@ Stream One Project: User-Centric Frontend Development - Code Institue
 The Music industry is very competitive with my friends only have a Facebook page this was an opportunity
 to build a website for them to promote their great talents and enhance their future ambitions.
 
-## Demo
-
-A live demo can be found here 
 
 ## UX
 
@@ -26,6 +23,7 @@ That way they would get a feel for the bands atmosphere and be targeted to the '
 - Bootstrap
 - Google Fonts
 - Font Awesome
+- JavaScript
 
 ## Features
 
@@ -64,7 +62,11 @@ The content is similiar to the Bands facebook page and they expanded on the para
 ## Media
 All the media JPG and MP3 files were provided by the BAND via Dropbox. 
 
-I received inspiration for this project from Course material and the participation of the band.
+##Acknowledgement
+
+Bootstrap is an amazing resouce which was used and refered to throughout this project
+by means of the Navbar, Jumbotron & Modal from the Whiskey landing page project (course material).  
+I received inspiration for this project from the participation of the band.
 
 
 
