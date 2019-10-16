@@ -80,7 +80,7 @@ footer {
 /* ---------------------------------------- Containers */
 
 .home-container{height:100vh;
-    background: url("./assets/images/milarby-home.jpg") no-repeat center center fixed; 
+    background: url("../images/milarby-home.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -99,7 +99,7 @@ padding-bottom:75px;}
 /* ---------------------------------------- Sections */
 
 .about-picture{height:50vh;
-    background: url("./assets/images/fieldstock.jpg") no-repeat top center; 
+    background: url("../images/fieldstock.jpg") no-repeat top center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

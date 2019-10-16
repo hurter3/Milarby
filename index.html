@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
 
 <body>
@@ -55,7 +55,7 @@
         <div class="row">
             <div class="col-12">
                 <section class="home jumbotron text-center">
-                    <h1 class="jumbotron-header my-5" >Milarby Acoustic Duo</h1>
+                    <h1 class="jumbotron-header my-5">Milarby Acoustic Duo</h1>
                     <p class="jumbotron-text my-5">Uplifting, lively covers from 60's to present for all occasions.</p>
                     <button class="btn btn-primary btn--contact btn--blue" data-toggle="modal" data-target="#ContactUsModal">Contact Us</button>
 
@@ -197,15 +197,6 @@
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="audio">
-                            <h6>Dancing in the Moonlight</h6>
-                            <audio controls> 
-                         <source src="assets/audio/dancing-in-moonlight.mp3" type="audio/mp3"> 
-                         </audio>
-
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="audio">
                             <h6>Pretty Woman</h6>
                             <audio controls> 
                          <source src="assets/audio/pretty-woman.mp3" type="audio/mp3"> 
@@ -244,36 +235,42 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <form>
-                        <div class="form-group">
-                            <label for="FirstName">First Name</label>
-                            <input type="text" class="form-control" id="FirstName">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-xs-4">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="FirstName">First Name</label>
+                                        <input type="text" class="form-control" id="FirstName" placeholder="*" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="LastName">Last Name</label>
+                                        <input type="text" class="form-control" id="LastName" placeholder="*" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="PhoneNumber">Phone Number</label>
+                                        <input type="text" class="form-control" id="PhoneNumber">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="*" required>
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="request">Request</label>
+                                        <textarea class="form-control" id="request" placeholder="*" required rows="3"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="LastName">Last Name</label>
-                            <input type="text" class="form-control" id="LastName">
-                        </div>
-                        <div class="form-group">
-                            <label for="PhoneNumber">Phone Number</label>
-                            <input type="number" class="form-control" id="PhoneNumber">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="request">Request</label>
-                            <textarea class="form-control" id="request" rows="3"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+                    </div>
                 </div>
-
             </div>
         </div>
     </div>
+
+
     <!-- modal end -->
 
 
