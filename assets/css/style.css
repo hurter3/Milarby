@@ -1,11 +1,18 @@
 /* ----------------------------------------Body Font */
 
-body {font-family: 'Roboto', sans-serif;}
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
 
 /* ---------------------------------------- Page Headers */
 
 
-h2 {text-align: center;}
+h2 {
+    text-align: center;
+    
+}
+    
 .page-header {
     margin-bottom: 0;
     border-bottom: 0;
@@ -28,9 +35,13 @@ footer {
 
 /* ---------------------------------------- Jumbotron */
 
-.jumbotron {background-color:transparent;}
+.jumbotron {
+    background-color:transparent;
+    
+}
 
-.jumbotron-header {text-align: center;
+.jumbotron-header {
+    text-align: center;
     color: #4a93e2;
     font-weight: bold;
 }
@@ -58,7 +69,6 @@ footer {
 .btn--blue:focus,
 .btn--blue:active:focus {
     background-color: #4a93e2;
-    
     color: white;
 }
 
@@ -79,7 +89,8 @@ footer {
 
 /* ---------------------------------------- Containers */
 
-.home-container{height:100vh;
+.home-container{
+    height:100vh;
     background: url("../images/milarby-home.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -92,13 +103,17 @@ footer {
 }
 
 
-.content-container{padding-top:75px;
-padding-bottom:75px;}
+.content-container{
+    padding-top:75px;
+padding-bottom:75px;
+    
+}
 
 
 /* ---------------------------------------- Sections */
 
-.about-picture{height:50vh;
+.about-picture{
+    height:50vh;
     background: url("../images/fieldstock.jpg") no-repeat top center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -107,9 +122,13 @@ padding-bottom:75px;}
   display:flex;
   align-items:center;
   justify-content:center;
-  background-color: #9b9eae;}
+  background-color: #9b9eae;
+}
 
-.about p{text-align:center;}
+.about p{
+    text-align:center;
+    
+}
 
 .photo{
     margin:auto;
@@ -118,12 +137,22 @@ padding-bottom:75px;}
 
 .audio{
     margin:auto;
-padding:25px;}
+padding:25px;
+    
+}
 
-.container-color-about{background-color: #9b9eae;}
-.container-color-photo{background-color: #acafbf;}
-.container-color-video{background-color: #c2c5d6;}
-.container-color-audio{background-color: #d5d9ec;}
+.container-color-about{
+    background-color: #9b9eae;
+}
+.container-color-photo{
+    background-color: #acafbf;
+}
+.container-color-video{
+    background-color: #c2c5d6;
+}
+.container-color-audio{
+    background-color: #d5d9ec;
+}
 
 
 /* ----------------------------------------Footer social links */
