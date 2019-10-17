@@ -1,16 +1,13 @@
-/* ----------------------------------------Body Font */
+/*----------BODY FONT---------*/
 
 body {
     font-family: 'Roboto', sans-serif;
-    
 }
 
-/* ---------------------------------------- Page Headers */
-
+/*----------HEADERS---------*/
 
 h2 {
     text-align: center;
-    
 }
     
 .page-header {
@@ -19,25 +16,24 @@ h2 {
     text-align: center;
 }
 
-/* ----------------------------------------Footer */
+/*----------FOOTER---------*/
 
 footer {
     background-color: #525252;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
-    text-align: center
+    text-align: center;
 }
 
 #footer-details {
     padding: 20px;
 }
 
-/* ---------------------------------------- Jumbotron */
+/*----------JUMBOTRON---------*/
 
 .jumbotron {
     background-color:transparent;
-    
 }
 
 .jumbotron-header {
@@ -46,11 +42,12 @@ footer {
     font-weight: bold;
 }
 
-.jumbotron-text {color: #4a93e2;
+.jumbotron-text {
+    color: #4a93e2;
     font-weight: bold;
 }
 
-/* --------------------------------------- Buttons */
+/*----------BUTTON---------*/
 
 .btn--contact {
     font-weight: bold;
@@ -61,7 +58,6 @@ footer {
 .btn--blue {
     color: white;
     background-color: blue;
-    
 }
 
 .btn--blue:hover,
@@ -72,7 +68,7 @@ footer {
     color: white;
 }
 
-/* ----------------------------------------/* Navbar */
+/*----------NAVBAR---------*/
 
 .navbar .navbar-toggler {
     border: 0;
@@ -86,76 +82,72 @@ footer {
     font-weight: bold;
 }
 
+/*----------CONTAINERS---------*/
 
-/* ---------------------------------------- Containers */
-
-.home-container{
+.home-container {
     height:100vh;
     background: url("../images/milarby-home.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  background-color: rgba(0,0,0,0.5)
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color: rgba(0,0,0,0.5);
 }
 
-
-.content-container{
+.content-container {
     padding-top:75px;
-padding-bottom:75px;
-    
+    padding-bottom:75px;
 }
 
+/*----------SECTIONS---------*/
 
-/* ---------------------------------------- Sections */
-
-.about-picture{
+.about-picture {
     height:50vh;
     background: url("../images/fieldstock.jpg") no-repeat top center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  background-color: #9b9eae;
-}
-
-.about p{
-    text-align:center;
-    
-}
-
-.photo{
-    margin:auto;
-   padding:25px;
-}
-
-.audio{
-    margin:auto;
-padding:25px;
-    
-}
-
-.container-color-about{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     background-color: #9b9eae;
 }
-.container-color-photo{
+
+.about p {
+    text-align:center;
+}
+
+.photo {
+    margin:auto;
+    padding:25px;
+}
+
+.audio {
+    margin:auto;
+    padding:25px;
+}
+
+.container-color-about {
+    background-color: #9b9eae;
+}
+
+.container-color-photo {
     background-color: #acafbf;
 }
-.container-color-video{
+
+.container-color-video {
     background-color: #c2c5d6;
 }
-.container-color-audio{
+
+.container-color-audio {
     background-color: #d5d9ec;
 }
 
-
-/* ----------------------------------------Footer social links */
+/*----------LINKS---------*/
 
 .social-links {
     padding-bottom: 15px;
@@ -181,8 +173,7 @@ padding:25px;
     background: blue;
 }
 
-
-/* ----------------------------------------Header Block dividers */
+/*----------DIVIDER---------*/
 
 .block-divider {
     width: 75px;
