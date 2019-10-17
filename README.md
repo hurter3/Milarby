@@ -2,7 +2,7 @@
 
 Stream One Project: User-Centric Frontend Development - Code Institue
  
-The Music industry is very competitive with my friends only have a Facebook page this was an opportunity
+The Music industry is very competitive with my friends only having a Facebook page this was an opportunity
 to build a website for them to promote their great talents and enhance their future ambitions.
 
 
@@ -17,19 +17,26 @@ That way they would get a feel for the bands atmosphere and be targeted to the '
 - Adobe XD,
   - To design the mockup for full screen and mobile which was also changed slightly while 
     developing the website through reviews with the band. (bit of an Agile approach).
-
 - HTML5
-- CSS3
 - Bootstrap
+  - Used the Grid structure, Jumbotron, Form and styling classes provided to build the basic layout.
+- CSS
+  - Expanded the style.css file to enhance the structure that was built using Bootstrap.
 - Google Fonts
+  - Use the body font to keep the text with the same style. 
 - Font Awesome
+  - Footer Facebook and YouTube icons
 - JavaScript
+  - Collapsible Navbar and Contact Modal. 
 
 ## Features
 
-This comprises of a fullpage cover image of the main page then 4 sections being About, Photos, Video and Audio.
-The 'contact us' on the navbar and by means of a button use a Modal with validation.
-The Video uses a youtube link and plays on the current index page as this is faster than loading the MP4 footage.
+This comprises of a fullpage cover image of the main page then 4 sections being
+About, Photos, Video and Audio with a slightly different backdround colour to give a subtle change.
+The 'contact us' on the navbar and by means of a button use a Modal/Form with validation.
+The Video uses a embeded YouTube link and plays on the current index page as this is faster
+than loading the MP4 footage. (Discovered this feature at Facebook>developers>docs.plugins)
+The Audio elements came from a google search with the solution being at W3Schools.
 The Facebook and YouTube footer ICONS open new pages via target="_blank" to ensure the Milarby website remains active. 
 
 ## Features Left to Implement
@@ -54,18 +61,18 @@ https://github.com/hurter3/Milarby
 and the GitHub Pages are published at
 https://hurter3.github.io/Milarby/
 
-Credits
+## Credits
 
-## Content
+### Content
 The content is similiar to the Bands facebook page and they expanded on the paragraph in the About section.
 
-## Media
+### Media
 All the media JPG and MP3 files were provided by the BAND via Dropbox. 
 
-##Acknowledgement
+### Acknowledgement
 
-Bootstrap is an amazing resouce which was used and refered to throughout this project
-by means of the Navbar, Jumbotron & Modal from the Whiskey landing page project (course material).  
+Bootstrap and W3Schools were a great resource to enhance the ideas delivered through the
+Whiskey landing page and Resume projects (course material).  
 I received inspiration for this project from the participation of the band.
 
 
