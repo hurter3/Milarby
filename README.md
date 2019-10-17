@@ -11,12 +11,13 @@ to build a website for them to promote their great talents and enhance their fut
 The outset was to keep everything simple and get the users to access each section via a full navbar (full screens)
 or collapse navbar (for smaller devices) or to cover all the sections by scrolling down the index.html page
 without realising it.
-That way they would get a feel for the bands atmosphere and be targeted to the 'contact us' areas.
+That way they would get a feel for the bands atmosphere and be targeted to the 'Contact Us' areas.
 
 ## Technologies.
 - Adobe XD,
   - To design the mockup for full screen and mobile which was also changed slightly while 
-    developing the website through reviews with the band. (bit of an Agile approach).
+    developing the website through reviews with the band. (bit of an Agile approach). This can be found
+    in the assets/wireframe folder.
 - HTML5
 - Bootstrap
   - Used the Grid structure, Jumbotron, Form and styling classes provided to build the basic layout.
@@ -25,7 +26,7 @@ That way they would get a feel for the bands atmosphere and be targeted to the '
 - Google Fonts
   - Use the body font to keep the text with the same style. 
 - Font Awesome
-  - Footer Facebook and YouTube icons
+  - Footer Facebook and YouTube icons.
 - JavaScript
   - Collapsible Navbar and Contact Modal. 
 
@@ -33,9 +34,11 @@ That way they would get a feel for the bands atmosphere and be targeted to the '
 
 This comprises of a fullpage cover image of the main page then 4 sections being
 About, Photos, Video and Audio with a slightly different backdround colour to give a subtle change.
-The 'contact us' on the navbar and by means of a button use a Modal/Form with validation.
+The navbar was structure to only collapse for smaller devices becuase of the space they took and the 
+expanded navbar for full screens had a better feel as it included a dropdown Media menu.
+The 'Contact' navbar link and the 'Contact Us' button use a Modal/Form with validation.
 The Video uses a embeded YouTube link and plays on the current index page as this is faster
-than loading the MP4 footage. (Discovered this feature at Facebook>developers>docs.plugins)
+than loading the MP4 footage. (Discovered this feature at Facebook>developers>docs>plugins).
 The Audio elements came from a google search with the solution being at W3Schools.
 The Facebook and YouTube footer ICONS open new pages via target="_blank" to ensure the Milarby website remains active. 
 
@@ -62,6 +65,9 @@ and the GitHub Pages are published at
 https://hurter3.github.io/Milarby/
 
 ## Credits
+
+### Author
+Mark Hurter
 
 ### Content
 The content is similiar to the Bands facebook page and they expanded on the paragraph in the About section.
