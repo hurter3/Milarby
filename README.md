@@ -19,6 +19,7 @@ That way they would get a feel for the bands atmosphere and be targeted to the '
     developing the website through reviews with the band. (bit of an Agile approach). This can be found
     in the assets/wireframe folder.
 - HTML5
+  - Elements 
 - Bootstrap
   - Used the Grid structure, Jumbotron, Form and styling classes provided to build the basic layout.
 - CSS
@@ -32,12 +33,12 @@ That way they would get a feel for the bands atmosphere and be targeted to the '
 
 ## Features
 
-This comprises of a fullpage cover image of the main page then 4 sections being
-About, Photos, Video and Audio with a slightly different backdround colour to give a subtle change.
-The navbar was structure to only collapse for smaller devices becuase of the space they took and the 
+This comprises of a fullpage main cover image (Home) and 4 sections being
+About, Photos, Video and Audio with a slightly different backdround colour to give a subtle division.
+The navbar was structure to only collapse for smaller devices because of the space they took and the 
 expanded navbar for full screens had a better feel as it included a dropdown Media menu.
 The 'Contact' navbar link and the 'Contact Us' button use a Modal/Form with validation.
-The Video uses a embeded YouTube link and plays on the current index page as this is faster
+The Video uses an embeded YouTube link and plays on the current index page as this is faster
 than loading the MP4 footage. (Discovered this feature at Facebook>developers>docs>plugins).
 The Audio elements came from a google search with the solution being at W3Schools.
 The Facebook and YouTube footer ICONS open new pages via target="_blank" to ensure the Milarby website remains active. 
@@ -52,17 +53,17 @@ Connect the submit function to send an email to the Milarby Acoustic Duo band wi
 - Tried to submit an empty form but all required fields and email formatting was highlighted to proceed before submitting.
 - Tested that the video uses a YouTube link with the current index page.
 - Tested that the Facebook and YouTube icon links open a new page and keep the current Milarby page actice.
-- Tested the MP3 audio icons played correctly.
+- Tested the MP3 audio icons played correctly, at first I used links to the songs on SoundCloud but it gave 
+- the impression that they were not part of the website so I decided on the Audio elements with the MP3 tracks
+- as they were not taking long to load.
 - Used W3C markup validator to ensure all tags were open ,closed and correct attributes were used.
 
 
 ## Deployment
 GitHub was frequently used from the initial commit and after each milestone or test fix to ensure 
 no rework was required.
-The master branch was used throught this project.
-https://github.com/hurter3/Milarby
-and the GitHub Pages are published at
-https://hurter3.github.io/Milarby/
+The master branch https://github.com/hurter3/Milarby was used throught this project.
+The website is published using [GitHub Pages](https://hurter3.github.io/Milarby/).
 
 ## Credits
 

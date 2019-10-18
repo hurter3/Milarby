@@ -129,6 +129,8 @@ footer {
 .audio {
     margin:auto;
     padding:25px;
+    align-items:center;
+    justify-content:center;
 }
 
 .container-color-about {
